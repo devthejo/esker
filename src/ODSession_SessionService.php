@@ -21,7 +21,7 @@ class ODSession_SessionService  {
 	* @access public
 	*/
 	function ODSession_SessionService() {
-		$this->client = new SoapClient('wsdl/SessionService2.wsdl',array(
+		$this->client = new SoapClient(__DIR__.'/../wsdl/SessionService2.wsdl',array(
                             'exceptions'=>true,
                             'encoding'=>'utf-8')
                         );

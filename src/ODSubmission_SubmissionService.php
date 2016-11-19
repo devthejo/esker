@@ -48,7 +48,7 @@ class ODSubmission_SubmissionService {
 	* @access public
 	*/
 	function ODSubmission_SubmissionService() {		
-        $this->client = new SoapClient('wsdl/SubmissionService2.wsdl',array(
+        $this->client = new SoapClient(__DIR__.'/../wsdl/SubmissionService2.wsdl',array(
                             'exceptions'=>true,
                             'encoding'=>'utf-8',
 							)

@@ -40,7 +40,7 @@ class ODQuery_QueryService  {
 	* @access public
 	*/
 	function ODQuery_QueryService() {
-		$this->client = new SoapClient('wsdl/QueryService2.wsdl',array(
+		$this->client = new SoapClient(__DIR__.'/../wsdl/QueryService2.wsdl',array(
                             'exceptions'=>true,
                             'encoding'=>'utf-8')
                         );
