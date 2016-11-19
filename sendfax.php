@@ -1,11 +1,10 @@
 <?php
+namespace Esker;
+require_once 'vendor/autoload.php';
+
 //////////////////////////////////////////////////////////////////////
 // STEP #1 : Global Initializations
 //////////////////////////////////////////////////////////////////////
-
-require_once('sessionservice.php');
-require_once('submissionservice.php');
-require_once('queryservice.php');
 
 // Sample parameters
 $m_Username			= 'mYus3r';				// Session username

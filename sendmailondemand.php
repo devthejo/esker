@@ -1,4 +1,7 @@
 <?php
+namespace Esker;
+require_once 'vendor/autoload.php';
+
 ///////////////////////////////////////////////////////////////////////////////
 //
 //		Important! Please read before running the code below
@@ -18,10 +21,6 @@
 //////////////////////////////////////////////////////////////////////
 // STEP #1 : Global Initializations
 //////////////////////////////////////////////////////////////////////
-
-require_once('sessionservice.php');
-require_once('submissionservice.php');
-require_once('queryservice.php');
 
 // Sample parameters - Please make sure you have changed them to proper values before running the sample!
 

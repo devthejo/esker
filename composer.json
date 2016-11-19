@@ -1,0 +1,17 @@
+{
+    "name": "surikat/esker",
+    "type": "api",
+    "authors": [
+        {
+            "name": "jo",
+            "email": "jo@surikat.pro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+		"psr-4": {
+            "Esker\\": "src"
+        }
+    }
+}
